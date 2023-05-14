@@ -9,7 +9,7 @@ from langchain import OpenAI
 from langchain import PromptTemplate
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-123123"
 
 def load_file(file_path):
     loader = TextLoader(file_path)
